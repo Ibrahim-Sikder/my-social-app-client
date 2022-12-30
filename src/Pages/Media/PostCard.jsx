@@ -19,7 +19,7 @@ const PostCard = ({ post }) => {
     },
   });
   return (
-    <div className="max-w-xs rounded-md shadow-md bg-gray-900 text-gray-100 mx-auto">
+    <div className="max-w-xs rounded-md shadow-md bg-[#1B74E4] text-gray-100 mx-auto">
       <img
         src={image}
         alt=""
@@ -46,7 +46,7 @@ const PostCard = ({ post }) => {
         <Link to={`/details/${_id}`}>
           <button
             type="button"
-            className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-400 text-gray-900"
+            className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-white text-gray-900"
           >
             Details
           </button>
