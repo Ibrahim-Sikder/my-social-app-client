@@ -104,7 +104,7 @@ const Login = () => {
           </div>
         </form>
         <p>
-          New to Doctors Portal{" "}
+          Social media {" "}
           <Link className="text-secondary" to="/signin">
             Create new Account
           </Link>

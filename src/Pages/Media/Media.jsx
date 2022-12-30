@@ -6,7 +6,7 @@ const Media = () => {
   const { data: posts = [] } = useQuery({
     queryKey: ["posts"],
     queryFn: () =>
-      fetch("http://localhost:5000/allposts").then((res) => res.json()),
+      fetch("https://purple-media-server-mu.vercel.app/allposts").then((res) => res.json()),
   });
   return (
     <div className="bg-[#4267B2]">

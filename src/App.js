@@ -10,6 +10,7 @@ import Details from "./Pages/Media/Details";
 import About from "./Pages/About/About";
 import UpdatedMessage from "./Pages/Media/UpdatedMessage";
 import PrivateRoute from "./Routes/PrivateRoute";
+import Messages from "./Pages/Message/Messages";
 
 function App() {
   const router = createBrowserRouter([
@@ -46,6 +47,10 @@ function App() {
           ),
         },
         {
+          path: "/message",
+          element: <Messages></Messages>,
+        },
+        {
           path: "/updated",
           element: <UpdatedMessage></UpdatedMessage>,
         },
@@ -57,7 +62,7 @@ function App() {
             </PrivateRoute>
           ),
           loader: ({ params }) =>
-            fetch(`http://localhost:5000/details/${params.id}`),
+            fetch(`https://purple-media-server-mu.vercel.app/details/${params.id}`),
         },
       ],
     },

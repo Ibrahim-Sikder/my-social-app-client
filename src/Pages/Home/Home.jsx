@@ -8,7 +8,7 @@ const Home = () => {
   // const { data: userIn = [] } = useQuery({
   //   queryKey: ["userIn"],
   //   queryFn: () =>
-  //     fetch("http://localhost:5000/userinfo").then((res) => res.json()),
+  //     fetch("https://purple-media-server-mu.vercel.app/userinfo").then((res) => res.json()),
   // });
 
   const imageHostKey = '6e5dec7cfd34ab5c29cf48f980fd3e76';
@@ -41,7 +41,7 @@ const Home = () => {
             likes: 0,
           };
           console.log(post);
-          fetch("http://localhost:5000/posts", {
+          fetch("https://purple-media-server-mu.vercel.app/posts", {
             method: "POST",
             headers: {
               "content-type": "application/json",
