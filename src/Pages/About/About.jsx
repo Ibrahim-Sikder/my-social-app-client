@@ -27,15 +27,15 @@ const About = () => {
   }
 
   return (
-    <div className="h-[1000px] flex justify-center  bg-[#4267B2]">
+    <div className="h-[1000px] flex justify-center  bg-[#e0aaff]">
       <div className="w-96 p-7">
-        <h2 className=" text-3xl text-center text-white font-bold mb-5">
+        <h2 className="text-center text-3xl text-center text-black font-bold mb-5">
           About
         </h2>
         <div className="flex justify-end">
           <label
             htmlFor="my-modal"
-            className="btn  w-1/3 bg-[#1B74E4] text-white hover:bg-[#1B74E4] mt-5"
+            className="btn  w-1/3 bg-[#9d4edd] text-white hover:bg-[#c77dff] mt-5"
           >
             Edit
           </label>
