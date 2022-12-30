@@ -36,7 +36,7 @@ function App() {
         },
         {
           path: "/media",
-          element: <Media></Media>,
+          element: <PrivateRoute><Media></Media></PrivateRoute>,
         },
         {
           path: "/about",
