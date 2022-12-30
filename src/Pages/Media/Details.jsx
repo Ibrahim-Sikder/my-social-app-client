@@ -74,8 +74,8 @@ const Details = () => {
     });
 
   return (
-    <div className="h-[1000px] flex justify-center items-center bg-[#e0aaff] ">
-      <div className="rounded-md shadow-md sm:w-96 lg:w-2/3 bg-[#9d4edd] text-gray-100 ">
+    <div className="h-[1000px] flex justify-center items-center bg-[#4267B2] ">
+      <div className="rounded-md shadow-md sm:w-96 lg:w-2/3 bg-[#1B74E4] text-gray-100 ">
         <div className="flex items-center justify-between p-3">
           <div className="flex items-center space-x-2">
             <div className="-space-y-1">
@@ -86,7 +86,7 @@ const Details = () => {
         <img
           src={image}
           alt=""
-          className="object-cover object-center w-full h-72 dark:bg-gray-500"
+          className="object-cover object-center w-full h-72 dark:bg-[#1B74E4]"
         />
         <div className="p-3">
           <div className="flex items-center justify-between">
@@ -126,7 +126,7 @@ const Details = () => {
                 />
 
                 <input
-                  className="w-[100px] btn  border bg-[#c77dff] text-white hover:bg-[#e0aaff]"
+                  className="w-[100px] btn  border bg-[#ffffff] text-[#1B74E4] hover:bg-[#e0aaff]"
                   type="submit"
                   value="Submit"
                 />
