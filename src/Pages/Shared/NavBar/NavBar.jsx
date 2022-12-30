@@ -38,7 +38,7 @@ const NavBar = () => {
   );
   return (
     <div>
-      <div className="bg-[#7b2cbf] ">
+      <div className="bg-[#1B74E4]">
         <div className="navbar  container mx-auto flex justify-between">
           <div className="navbar-start">
             <div className="dropdown">
@@ -67,14 +67,14 @@ const NavBar = () => {
             </div>
             <Link
               to="/"
-              className="btn btn-ghost normal-case text-xl font-bold text-[#e9c46a]"
+              className="btn btn-ghost normal-case text-xl font-bold text-[#ffffff]"
             >
               <img className="w-[60px] h-[60px]" src={logo} alt="" />
-              <p>Purple Media</p>
+              <p>I Won a Million</p>
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal p-0 text-[#e9c46a] font-semibold">
+            <ul className="menu menu-horizontal p-0 text-[#ffffff] font-semibold">
               {menu}
             </ul>
           </div>

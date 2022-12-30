@@ -58,16 +58,16 @@ console.log(imageHostKey)
   };
 
   return (
-    <div className="bg-[#e0aaff]">
+    <div className="bg-[#ffffff]">
       <h1 className="text-3xl font-bold text-center pt-5 pb-5">
         Add a Post 😃😃
       </h1>
       <p className="text-xl font-semibold text-center pt-3 pb-2 text-black">
         Hello👋 {user?.displayName}
       </p>
-      <div className="h-[400px] flex justify-center  bg-[#e0aaff] pb-5">
+      <div className="h-[400px] flex justify-center  bg-[#ffffff] pb-5">
         <div className="w-96 p-7 border">
-          <form onSubmit={handleSubmit(handleSub)}>
+          <form onSubmit={handleSubmit(handleSub)} className=''>
             <div className="form-control w-full max-w-xs">
               <label className="label">
                 {" "}
@@ -102,7 +102,7 @@ console.log(imageHostKey)
               )}
             </div>
             <input
-              className="btn btn-accent w-full mt-5 bg-[#9d4edd] text-white hover:bg-[#c77dff]"
+              className="btn btn-accent w-full mt-5 bg-[#1B74E4] text-white hover:bg-[#1B74E4]"
               value="upload"
               type="submit"
             />
